@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class FeignServer {
+public class ServerDemo {
     @RequestMapping("/hello")
     public String printInformation(){
        return "Hello World";

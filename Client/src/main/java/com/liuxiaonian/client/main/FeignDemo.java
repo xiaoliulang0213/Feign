@@ -1,5 +1,6 @@
-package com.liuxiaonian.client.feign;
+package com.liuxiaonian.client.main;
 
+import com.liuxiaonian.client.feign.FeignClient;
 import feign.Feign;
 import feign.gson.GsonEncoder;
 
